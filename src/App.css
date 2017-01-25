@@ -1,0 +1,54 @@
+p{
+  font-size: 16px;
+}
+#home{
+  padding-left: 60px;
+}
+
+.about{
+  float: left;
+  font-size: 30px;
+  font-family: Arial Narrow;
+
+}
+
+.projects{
+  float: right;
+  text-align: center;
+  padding-left: 5%;
+  font-family: Arial Narrow;
+}
+
+.thumbnail:hover{
+  background-color: #00FFFF;
+  opacity: .9;
+
+}
+
+.Front{
+  font-size: 50px;
+  clear: both;
+  margin-top: 80px;
+}
+
+.skills{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  height: 400px;
+  font-family: Arial Narrow;
+}
+
+
+
+//==========================
+//==========================
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
