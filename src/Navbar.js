@@ -5,10 +5,10 @@ import { IndexLink, Link } from 'react-router';
 class Navbar extends Component{
     render(){
         return(
-            <nav className="navbar navbar-inverse navbar-fixed-top" style={{backgroundColor:"#00FFFF", marginBottom:''}}>
+            <nav className="navbar navbar-inverse navbar-fixed-top mynav">
                 <div className="container">
                     <div className="navbar-header">
-                        <a className="navbar-brand" href="#" style={{fontFamily:"Zapfino", marginTop:10, marginLeft:20, color:"darkgrey"}}>Anna Sedlar</a>
+                        <a className="navbar-brand" href="#" style={{fontFamily:"Zapfino", marginTop:10, color:"white", textShadow:"2px 2px darkgrey"}}>Anna Sedlar</a>
                     </div>
                     <ul className="nav navbar-nav">
                         <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
