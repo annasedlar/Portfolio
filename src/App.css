@@ -3,7 +3,8 @@ html{
 }
 
 body{
-  font-family: Century Gothic;
+  font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -11,6 +12,11 @@ body{
   background-color: lightgrey;
   color: white;
   height: 100%;
+}
+
+.darker_bg:hover{
+  background-color: #191919;
+  border-radius: 50%;
 }
 
 p{
@@ -25,9 +31,23 @@ p:hover{
   background-color: #323232;
  }
 
+.sm_icons{
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+
+}
+
+.sm_icons:hover{
+  background-color: white;
+  border-radius: 50%;
+}
+
 .about{
-  font-size: 30px;
-  font-family: Arial Narrow;
+  font-size: 40px;
+  font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
+  font-weight: 300;
   margin-top: 60px;
   background-image: url("mtn.jpg");
   height: 100vh;
@@ -39,14 +59,22 @@ p:hover{
 
 .aboutcenter{
   margin:auto;
-  margin-top: 10%;
+  margin-top: 15%;
+  font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
+  font-weight: 300;
+}
+
+.about h1{
+  font-size: 80px;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .projects{
   height: 100vh;
   float: right;
   text-align: center;
-  font-family: Arial Narrow;
+  margin: auto;
+  margin-top: 5%;
 }
 
 .thumbnail{
@@ -61,23 +89,22 @@ p:hover{
 }
 
 .skills{
-  height: 100vh;
+  height: 200vh;
   font-size: 40px;
   color: darkgrey;
   text-align: center;
   height: 400px;
-  font-family: Arial Narrow;
   margin-top: 80px;
 }
 
 .corners{
   background: #f6f6f6;
-  height: 70%;
   margin: 50px auto;
   max-width: 60%;
   position: relative;
   width: 80%;
   box-shadow: 0 1px 7px hsla(0, 0%, 0%, 0.2);
+  padding: 5px;
 }
 
 /* Corner Effect */
@@ -100,9 +127,9 @@ p:hover{
 }
 
 .map_background{
-  background: grey;
-  height:90vh;
+  height:100vh;
   margin:auto;
+  background-image: url("./atlanta.jpg");
 }
 
 
