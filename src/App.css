@@ -34,9 +34,10 @@ p{
   font-size: 16px;
 }
 
-p:hover{
-  color: #85A6CD;
-}
+/* p:hover{
+  color: white;
+} */
+
 
 .mynav{
   background-color: #323232;
@@ -88,6 +89,10 @@ p:hover{
   margin: auto;
 }
 
+.projects h1{
+    text-shadow: 2px 2px 2px #323232;
+}
+
 .thumbnail{
     box-shadow: 5px 5px darkgrey;
     filter: blur(2px);
@@ -103,26 +108,28 @@ p:hover{
 
 }
 
-.skills{
-  height: 100vh;
-  font-size: 40px;
-  color: darkgrey;
-  text-align: center;
-  margin-top: 80px;
-}
-
-.skills h1{
+.corners h1{
   margin-left: 30px;
   text-align: left;
   text-decoration: underline;
   color: #323232;
 }
 
+.corners p, h3, h4{
+    color: #323232;
+    text-align: center;
+}
+
 i{
-  margin: 15px;
+  margin: 10px;
 }
 
 .corners{
+  color: darkgrey;
+  text-align: center;
+  margin-top: 80px;
+  height: 100vh;
+  font-size: 40px;
   background: #f6f6f6;
   margin: 50px auto;
   max-width: 60%;
@@ -151,15 +158,12 @@ i{
   transform: rotate(45deg);
 }
 
-.map_background{
-  height:100vh;
-  background-image: url("./atlanta.jpg");
-  background-repeat: no-repeat;
-    background-position: center; 
-}
-
-.map_foreground{
-    height:100vh;
+.contact_box{
+  margin-top: 10%;
+  height: 80vh;
+  background-color: white;
+  color: #323232;
+  box-shadow: 5px 5px darkgrey;
 }
 
 .footer{
@@ -168,6 +172,7 @@ i{
   color: white;
   width: 100vw;
   margin: auto;
+  margin-top: 2%;
 
 }
 

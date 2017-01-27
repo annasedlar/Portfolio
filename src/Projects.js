@@ -15,6 +15,8 @@ class Projects extends Component{
 	                <div className="col-xs-6">
 	                  <a href={upd8edURL} className="thumbnail" target="_blank" style={{margin:'auto', padding:'10%'}}>
 	                    <img src={upd8edpic} alt="up8ed_news-aggregator" />
+	                    <h1>Upd8ed - A News Aggregator</h1><p>Upd8ed is a news aggregator.</p>
+	                    <p>This site is built solely on the front-end as a week-long sprint project with Connie, Mason, Paul at DigitalCrafts</p>
 	                  </a>
 	                </div>
 	                <div className="col-xs-6">
