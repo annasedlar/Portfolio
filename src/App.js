@@ -8,17 +8,25 @@ import Location from './Location';
 
 
 class Home extends Component {
+
+
   render() {
     return (
-      <div className="home">
-        <Navbar />
-        <About />
-        <Skills />
-        <Projects />
-        <Location />
-      </div>
+      <div>
+        <div className="home">
+          <Navbar />
+          <About />
+          <Skills />
+          <Projects />
+          <Location />
+        </div>
+    </div>
+
     );
   }
 }
 
 export default Home;
+
+
+//{this.props.children} ---> way to use navbar buttons

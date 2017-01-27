@@ -18,17 +18,16 @@ class Navbar extends Component{
                         <a className="navbar-brand" href="#" style={{fontFamily:"Zapfino", marginTop:10, color:"white", textShadow:"2px 2px darkgrey"}}>Anna Sedlar</a>
                     </div>
                     <ul className="nav navbar-nav">
-                        <li><IndexLink to="/" className="darker_bg" activeClassName="active">Home</IndexLink></li>
-                        <li><Link to="/about" className="darker_bg" activeClassName="active">About</Link></li>
-                        <li><Link to="/skills" className="darker_bg" activeClassName="active">Skills</Link></li>
-                        <li><Link to="/projects" className="darker_bg" activeClassName="active">Projects</Link></li>
+                        <li><IndexLink to="about" href=".aboutcenter" className="darker_bg" activeClassName="active">About</IndexLink></li>
+                        <li><Link to="skills" href=".skills" className="darker_bg" activeClassName="active">Skills</Link></li>
+                        <li><Link to="projects" href=".projects" className="darker_bg" activeClassName="active">Projects</Link></li>
                     </ul>
                     <ul className='nav navbar-nav col-xs-hidden' style={{float:'right'}}>
-                        <li><img className='sm_icons' src={li} alt='linkedin' /></li>
-                        <li><img className='sm_icons' src={git} alt='github' /></li>
-                        <li><img className='sm_icons' src={tw} alt='twitter' /></li>
-                        <li><img className='sm_icons' src={fb} alt='facebook' /></li>
-                        <li><img className='sm_icons' src={mail} alt='email_me' /></li>
+                        <li><a href="https://www.linkedin.com/in/annasedlar" target="_blank"><img className='sm_icons' src={li} alt='linkedin' /></a></li>
+                        <li><a href="https://github.com/annasedlar" target="_blank"><img className='sm_icons' src={git} alt='github' /></a></li>
+                        <li><a href="https://twitter.com/annasedlar" target="_blank"><img className='sm_icons' src={tw} alt='twitter' /></a></li>
+                        <li><a href="https://www.facebook.com/annasedlar"  target="_blank"><img className='sm_icons' src={fb} alt='facebook'/></a></li>
+                        <li><a href="mailto:annasedlar@gmail.com" target="_blank"><img className='sm_icons' src={mail} alt='email_me' /></a></li>
                     </ul>
                 </div>
             </nav>

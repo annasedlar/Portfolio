@@ -146,6 +146,9 @@ i{
     background-position: center; 
 }
 
+.map_foreground{
+    height:100vh;
+}
 
 .footer{
   background-color: #323232;
