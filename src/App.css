@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -12,6 +12,17 @@ body{
   background-color: lightgrey;
   color: white;
   height: 100%;
+}
+
+.signature_on_heading{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 44px;
+  margin-top: 10px;
+  color:white;
 }
 
 .darker_bg:hover{
@@ -33,10 +44,11 @@ p:hover{
 
 .sm_icons{
   float: right;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-top: 5%;
   clear: both;
+  filter: invert(100%);
 
 }
 

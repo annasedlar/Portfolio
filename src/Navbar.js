@@ -12,30 +12,29 @@ import tw from './sm-icons/twitter.png';
 class Navbar extends Component{
     render(){
         return(
-            <nav className="navbar navbar-inverse navbar-fixed-top mynav">
+            <nav className="navbar navbar-inverse navbar-fixed-top mynav" id="navbar">
                 <div className="container">
                     <div className="navbar-header">
-                        <a className="navbar-brand" href="#" style={{fontFamily:"Zapfino", marginTop:10, color:"white", textShadow:"2px 2px darkgrey"}}>Anna Sedlar</a>
+                        <a className="navbar-brand signature_on_heading menu-item" href="#about" >Anna Sedlar</a>
                     </div>
                     <ul className="nav navbar-nav">
-                        <li><IndexLink to="about" href=".aboutcenter" className="darker_bg" activeClassName="active">About</IndexLink></li>
-                        <li><Link to="skills" href=".skills" className="darker_bg" activeClassName="active">Skills</Link></li>
-                        <li><Link to="projects" href=".projects" className="darker_bg" activeClassName="active">Projects</Link></li>
+                        <li className="menu-item"><a href="#about" activeClassName="active">About</a></li>
+                        <li className="menu-item"><a href="#skills" activeClassName="active">Skills</a></li>
+                        <li className="menu-item"><a href="#projects" activeClassName="active">Projects</a></li>
+                        <li className="menu-item"><a href="#location" activeClassName="active">Contact Me</a></li>
                     </ul>
                     <ul className='nav navbar-nav col-xs-hidden' style={{float:'right'}}>
-                        <li><a href="https://www.linkedin.com/in/annasedlar" target="_blank"><img className='sm_icons' src={li} alt='linkedin' /></a></li>
-                        <li><a href="https://github.com/annasedlar" target="_blank"><img className='sm_icons' src={git} alt='github' /></a></li>
-                        <li><a href="https://twitter.com/annasedlar" target="_blank"><img className='sm_icons' src={tw} alt='twitter' /></a></li>
-                        <li><a href="https://www.facebook.com/annasedlar"  target="_blank"><img className='sm_icons' src={fb} alt='facebook'/></a></li>
-                        <li><a href="mailto:annasedlar@gmail.com" target="_blank"><img className='sm_icons' src={mail} alt='email_me' /></a></li>
+                        <li><a href="https://www.linkedin.com/in/annasedlar" target="_blank"><img src={li} className='sm_icons' alt='linkedin' /></a></li>
+                        <li><a href="https://github.com/annasedlar" target="_blank"><img src={git} className='sm_icons' alt='github' /></a></li>
+                        <li><a href="https://twitter.com/annasedlar" target="_blank"><img src={tw} className='sm_icons' alt='twitter' /></a></li>
+                        <li><a href="https://www.facebook.com/annasedlar" target="_blank" ><img src={fb} className='sm_icons' alt='facebook'/></a></li>
+                        <li><a href="mailto:annasedlar@gmail.com" target="_blank" ><img src={mail} className='sm_icons' alt='email_me' /></a></li>
                     </ul>
                 </div>
             </nav>
         )
     }
 }
-
-
 
 
 

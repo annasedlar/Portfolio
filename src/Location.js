@@ -10,7 +10,7 @@ class Location extends Component{
   render(){
     return(
       <div>
-        <div className="map-foreground col-xs-hidden col-sm-12 row">
+        <div className="map-foreground col-xs-hidden col-sm-12 row" id="location">
          <div className="map_background col-xs-hidden col-sm-12 row">
          </div>
         </div>

@@ -8,6 +8,7 @@ import About from './About.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
 import Navbar from './Navbar.js';
+import Location from './Location.js';
 import {GoogleMapLoader, GoogleMap, Marker} from "react-google-maps";
 
 ReactDOM.render(

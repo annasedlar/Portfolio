@@ -8,7 +8,7 @@ import dc from './dc.png';
 class Skills extends Component{
   render(){
     return(
-      <div className="col-sm-6 col-md-12 row skills">
+      <div className="col-sm-6 col-md-12 row skills" id="skills">
       	<div className="corners">
       	<h1>Education</h1>
       		<div><h2>Tech Skills</h2>
@@ -34,7 +34,7 @@ class Skills extends Component{
       			<img src={dc} alt="become_a_builder_of_things" style={{width:300, height:130, maxWidth:'100%'}} />
       			<h3>DigitalCrafts</h3>
       			<p>DigitalCrafts is a top-rated full stack web and software development immersive program in Atlanta covering the most relevant web technologies and best-practice methodologies to build fully functional applications.
-      			 This 16 week program covers HTML, CSS, Bootstrap, Javascript, React.js Node.js, MongoDB and Python, to prepared students to work as Full Stack Developers and Software Engineers.</p>
+      			 This 16 week program covers HTML, CSS, Bootstrap, Javascript, React.js Node.js, MongoDB and Python, to prepare students to work as Full Stack Developers and Software Engineers.</p>
       			<img src={UMheader} alt="Go Blue" style={{width:400, height:60, maxWidth:'100%'}} />
       			<h3>University of Michigan</h3>
 		      		<p>I have a best skillz. Theyre yuuuuuge. You know it, I know it, everybody knows it.</p>

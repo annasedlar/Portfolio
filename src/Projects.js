@@ -9,7 +9,7 @@ import upd8edpic from './upd8edscreenshot.png';
 class Projects extends Component{
   render(){
     return(
-	      <div className="col-sm-6 col-md-12 row projects">
+	      <div className="col-sm-6 col-md-12 row projects" id="projects">
 	          <h1>This is the Projects Component</h1>
 	              <div className="row">
 	                <div className="col-xs-6">
