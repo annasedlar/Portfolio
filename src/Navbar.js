@@ -23,7 +23,7 @@ class Navbar extends Component{
                         <li><Link to="/skills" className="darker_bg" activeClassName="active">Skills</Link></li>
                         <li><Link to="/projects" className="darker_bg" activeClassName="active">Projects</Link></li>
                     </ul>
-                    <ul className='nav navbar-nav' style={{float:'right'}}>
+                    <ul className='nav navbar-nav col-xs-hidden' style={{float:'right'}}>
                         <li><img className='sm_icons' src={li} alt='linkedin' /></li>
                         <li><img className='sm_icons' src={git} alt='github' /></li>
                         <li><img className='sm_icons' src={tw} alt='twitter' /></li>

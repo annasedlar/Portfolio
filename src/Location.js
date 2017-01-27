@@ -10,8 +10,9 @@ class Location extends Component{
   render(){
     return(
       <div>
-        <div className="map_background">
-          Insert Map Here
+        <div className="map-foreground col-xs-hidden col-sm-12 row">
+         <div className="map_background col-xs-hidden col-sm-12 row">
+         </div>
         </div>
         <div className="col-xs-12 footer row">
           <p>This is the footer. Here goes: social media links, email link, github, projects... </p>
