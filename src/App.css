@@ -20,8 +20,6 @@ body{
   font-style: normal;
   font-variant: normal;
   font-weight: 100;
-  line-height: 44px;
-  margin-top: 10px;
   color:white;
 }
 
@@ -33,11 +31,6 @@ body{
 p{
   font-size: 16px;
 }
-
-/* p:hover{
-  color: white;
-} */
-
 
 .mynav{
   background-color: #323232;
@@ -62,7 +55,6 @@ p{
   font-size: 40px;
   font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
   font-weight: 300;
-  margin-top: 60px;
   background-image: url("mtn.jpg");
   height: 100vh;
   width: 100%;
@@ -73,9 +65,10 @@ p{
 
 .aboutcenter{
   margin:auto;
-  margin-top: 15%;
+  margin-top: 7%;
   font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
   font-weight: 300;
+
 }
 
 .about h1{
@@ -95,7 +88,7 @@ p{
 
 .thumbnail{
     box-shadow: 5px 5px darkgrey;
-    filter: blur(2px);
+/*     filter: blur(2px); */
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
@@ -103,9 +96,9 @@ p{
 
 .thumbnail:hover{
   background-color: #85A6CD;
-  opacity: .9;
-  filter: blur(0);
-
+/*   opacity: .9;
+  filter: blur(0); */
+/*   border-radius: 50%; */
 }
 
 .corners h1{
@@ -139,7 +132,7 @@ i{
   padding: 5px;
 }
 
-/* Corner Effect */
+Corner Effect
 .corners:after, .corners:before {
   background: lightgrey;
   content: '';
@@ -159,7 +152,7 @@ i{
 }
 
 .contact_box{
-  margin-top: 10%;
+
   height: 80vh;
   background-color: white;
   color: #323232;

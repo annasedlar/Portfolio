@@ -15,7 +15,7 @@ class ContactMe extends Component{
             <p>I love meeting new people and would love to talk about your web, app, or tech needs. Here's how you can reach out to me:</p>
             <div style={{height:400, width:400, border:'1px solid black', margin:"auto"}}><h2>Insert a Form</h2>
             </div>
-            <h3>insert social media icons, link to resume</h3>
+            <h3>insert social media icons, resume</h3>
          </div>
 
 
