@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import fb from './sm-icons/facebook.png';
+import li from './sm-icons/linkedin.png';
+import git from './sm-icons/github.png';
+import mail from './sm-icons/mail.png';
+import tw from './sm-icons/twitter.png';
+import {Modal, NavBar, ButtonDropdown} from 'simple-react-bootstrap'
 // import {GoogleMapLoader, GoogleMap, Marker} from 'react-google-maps';
 // import SimpleMap from './SimpleMap'
 
@@ -9,18 +15,17 @@ import './App.css';
 class ContactMe extends Component{
   render(){
     return(
-      <div id="ContactMe">
+      <div className="contactme" id="contactme">
          <div className="col-sm-10 col-sm-offset-1 contact_box">
             <h1>Contact Me</h1>
-            <p>I love meeting new people and would love to talk about your web, app, or tech needs. Here's how you can reach out to me:</p>
-            <div style={{height:400, width:400, border:'1px solid black', margin:"auto"}}><h2>Insert a Form</h2>
-            </div>
-            <h3>insert social media icons, resume</h3>
+            <p>I love meeting new people and would love to talk about your web, app, or tech needs.</p>
+            <p>Send me an email at annasedlar@gmail.com or find me on any of these platforms: </p>
+
          </div>
-
-
-        <div className="col-xs-12 footer row">
-          <p>This is the footer. Here goes: social media links, email link, github, projects... </p>
+        <div className="col-sm-12 footer row">
+          <div className="foot">
+            
+          </div>
         </div>
       </div>
     )

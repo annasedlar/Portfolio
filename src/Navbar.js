@@ -26,9 +26,9 @@ class Navbar extends Component{
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav">
                             <li className="menu-item"><a href="#about" activeClassName="active">About</a></li>
-                            <li className="menu-item"><a href="#corners" activeClassName="active">Skills</a></li>
+                            <li className="menu-item"><a href="#skillz" activeClassName="active">Skills</a></li>
                             <li className="menu-item"><a href="#projects" activeClassName="active">Projects</a></li>
-                            <li className="menu-item"><a href="#ContactMe" activeClassName="active">Contact Me</a></li>
+                            <li className="menu-item"><a href="#BOTTOM" activeClassName="active">Contact Me</a></li>
                         </ul>
                         <ul className='nav navbar-nav col-xs-hidden navbar-right'>
                             <li><a href="https://www.linkedin.com/in/annasedlar" target="_blank"><img src={li} className='sm_icons' alt='linkedin' /></a></li>

@@ -43,10 +43,17 @@ p{
   margin-top: 5%;
   clear: both;
   filter: invert(100%);
-
 }
 
-.sm_icons:hover{
+.sm_iconsf{
+  width: 30px;
+  height: 30px;
+  margin-top: 5%;
+  clear: both;
+  filter: invert(100%);
+}
+
+.sm_icons:hover, .sm_iconsf:hover{
   background-color: white;
   border-radius: 50%;
 }
@@ -55,12 +62,12 @@ p{
   font-size: 40px;
   font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
   font-weight: 300;
-  background-image: url("mtn.jpg");
+  background-image: url("background.jpg");
   height: 100vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;   
 }
 
 .aboutcenter{
@@ -68,7 +75,6 @@ p{
   margin-top: 7%;
   font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica;
   font-weight: 300;
-
 }
 
 .about h1{
@@ -77,13 +83,14 @@ p{
 }
 
 .projects{
-  height: 100vh;
+  height: 120vh;
   text-align: center;
   margin: auto;
 }
 
-.projects h1{
-    text-shadow: 2px 2px 2px #323232;
+#projects-title{
+  text-align: left;
+  color: black;
 }
 
 .thumbnail{
@@ -152,9 +159,9 @@ Corner Effect
 }
 
 .contact_box{
-
-  height: 80vh;
+  height: 100vh;
   background-color: white;
+  margin-bottom: 10px;
   color: #323232;
   box-shadow: 5px 5px darkgrey;
 }
@@ -166,11 +173,11 @@ Corner Effect
   width: 100vw;
   margin: auto;
   margin-top: 2%;
-
 }
 
-
-
+.foot{
+  float: left;
+}
 
 
 
