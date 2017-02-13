@@ -19,8 +19,14 @@ class ContactMe extends Component{
          <div className="col-sm-10 col-sm-offset-1 contact_box">
             <h1>Contact Me</h1>
             <p>I love meeting new people and would love to talk about your web, app, or tech needs.</p>
-            <p>Send me an email at annasedlar@gmail.com or find me on any of these platforms: </p>
-
+            <p>Email me at annasedlar@gmail.com or find me on these platforms</p>
+            <div>
+            <a href="https://www.linkedin.com/in/annasedlar" target="_blank"><img src={li} className='lg_icons' alt='linkedin' /></a>
+            <a href="https://github.com/annasedlar" target="_blank"><img src={git} className='lg_icons' alt='github' /></a>
+            <a href="https://twitter.com/annasedlar" target="_blank"><img src={tw} className='lg_icons' alt='twitter' /></a>
+            <a href="https://www.facebook.com/annasedlar" target="_blank"><img src={fb} className='lg_icons' alt='facebook'/></a>
+            <a href="mailto:annasedlar@gmail.com" target="_blank"><img src={mail} className='lg_icons' alt='email_me' /></a>
+            </div>
          </div>
         <div className="col-sm-12 footer row">
           <div className="foot">

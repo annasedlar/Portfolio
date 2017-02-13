@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import kitty from './placekitten.jpg';
+import chatdraw from './chatdraw.png';
+const chatdrawURL = 'http://annasedlar.com/chatdraw';
 
 
 const upd8edURL ='http://annasedlar.com/upd8ed';
@@ -29,6 +31,19 @@ class Projects extends Component{
                 <p>We are working to implement a reddit-style upvote/downvote component on the back-end.</p>
             </div>
         </div>
+        <div className="container col-xs-12 thumbnail">
+            <div className="col-xs-6">
+              <a href={chatdrawURL} target="_blank" style={{margin:'auto', padding:'10%'}}>
+                <img src={chatdraw} alt="chatdraw"/>
+                <h1>Chat-Draw</h1>
+                <p><a href="https://github.com/annasedlar/Chat-Draw" target="_blank">See code on Github</a> || Click anywhere for live demo</p>
+               </a>
+            </div>
+            <div className="col-xs-6">
+                <h1>Chat-Draw</h1>
+                <p>A real-time chat/drawing application built using the HTML5 canvas element, websockets (socket.io) and Node.js</p>
+            </div>
+        </div> 
         <div className="row col-xs-12 thumbnail">
             <div className="col-xs-6">
               <a href="#">
