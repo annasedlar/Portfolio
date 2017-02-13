@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import './App.css';
 import kitty from './placekitten.jpg';
 import chatdraw from './chatdraw.png';
+import whattowatch from './whattowatch.png';
+const whatToWatchURL = 'http://annasedlar.com/whattowatch/';
 const chatdrawURL = 'http://annasedlar.com/chatdraw';
-
-
 const upd8edURL ='http://annasedlar.com/upd8ed';
 import upd8edpic from './tv1.png';
 
 class Projects extends Component{
   render(){
     return(
-	      <div className="col-sm-12 row projects" id="projects">
-	      <div id="projects-title">
+	   <div className="col-sm-12 row projects" id="projects">
+	   <div id="projects-title">
 	          <h2>Projects</h2>
-	      </div>
-        <div className="container col-xs-12 thumbnail">
+	   </div>
+     <div className="container col-xs-12 thumbnail">
             <div className="col-xs-6">
               <a href={upd8edURL} target="_blank" style={{margin:'auto', padding:'10%'}}>
                 <img src={upd8edpic} alt="up8ed_news-aggregator"/>
@@ -40,22 +40,24 @@ class Projects extends Component{
                </a>
             </div>
             <div className="col-xs-6">
-                <h1>Chat-Draw</h1>
+                <h1>Chat-Draw is a Chat Room</h1>
                 <p>A real-time chat/drawing application built using the HTML5 canvas element, websockets (socket.io) and Node.js</p>
             </div>
         </div> 
-        <div className="row col-xs-12 thumbnail">
+        <div className="container col-xs-12 thumbnail">
             <div className="col-xs-6">
-              <a href="#">
-                <img src={kitty} alt="kitty2"/>
-              </a>
+              <a href={whatToWatchURL} target="_blank" style={{margin:'auto', padding:'10%'}}>
+                <img src={whattowatch} alt="whattowatch"/>
+                <h1>What To Watch</h1>
+                <p><a href="https://github.com/annasedlar/What_to_watch" target="_blank">See code on Github</a> || Click anywhere for live demo</p>
+               </a>
             </div>
             <div className="col-xs-6">
-              <a href="#">
-               <p>This is where I'd explain the kitten project</p>
-              </a>
+                <h1>What To Watch is a Movie App</h1>
+                <p>This app pulls live data to see currently playing movies, filter movies by genre, and search a movie based on movie or actor/ess name. Built with the TMDb (The Movie Database) API</p>
+                <p>These link to the original project. Since then, another 4 iterations have been written using various technologies including Express, React, and Mongo. Eventually they will all be pulled together into one.</p>
             </div>
-       </div>                       
+        </div>                 
 	 </div>
     )
   }

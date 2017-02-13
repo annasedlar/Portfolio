@@ -20,7 +20,7 @@ class About extends Component{
 	      <div className="col-sm-12 about" id="about">
 	      	<div className="aboutcenter">
 		      	<h1>Anna Sedlar</h1>
-		      	<p className="english">Hi! I'm Anna. I make web apps. Let's be friends? </p>
+		      	<p className="english">Hi! I'm Anna. I make web apps. Let's be friends</p>
 		      </div>
 	      </div>
 	    )
